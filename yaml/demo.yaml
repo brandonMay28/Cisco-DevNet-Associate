@@ -1,0 +1,16 @@
+---
+Users:
+  - User:
+    - Id: 1
+      Firstname: Brandon
+      Lastname: Romero
+      Email: bromero@yaml.com
+    - Id: 2
+      Firstname: Maxwell
+      Lastname: Rain
+      Email: mrain@yaml.com
+    - Id: 3
+      Firstname: Emily
+      Lastname: Jean
+      Email: ejean@yaml.com    
+...
