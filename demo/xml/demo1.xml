@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Users>
+    <User id="1">
+        <Firstname>Brandon</Firstname>
+        <Lastname>Romero</Lastname>
+        <Email>bromero@xml.com</Email>
+    </User>
+
+    <User id="2">
+        <Firstname>Maxwell</Firstname>
+        <Lastname>Rain</Lastname>
+        <Email>mrain@xml.com</Email>
+    </User>
+
+    <User id="3">
+        <Firstname>Emily</Firstname>
+        <Lastname>Jean</Lastname>
+        <Email>ejean@xml.com</Email>
+    </User>
+</Users>
