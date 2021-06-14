@@ -1,0 +1,24 @@
+{
+    "User": {
+        "user": [
+            {
+                "id": "1",
+                "Firstname": "Brandon",
+                "Lastname": "Romero",
+                "Email": "bromero@json.com"
+            },
+            {
+                "id": "2",
+                "Firstname": "Maxwell",
+                "Lastname": "Rain",
+                "Email": "mrain@json.com"
+            },
+            {
+                "id": "3",
+                "Firstname": "Emily",
+                "Lastname": "Jean",
+                "Email": "ejean@json.com"
+            }
+        ]
+    }
+}
