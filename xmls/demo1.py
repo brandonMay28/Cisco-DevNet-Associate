@@ -1,6 +1,6 @@
 from lxml import etree as ET
 
-stream = open("demo1.xml", "r")
+stream = open("demo.xml", "r")
 
 xml = ET.parse(stream)
 
