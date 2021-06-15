@@ -51,4 +51,7 @@ app_data = response.json()
 pprint(app_data["ietf-interfaces:interface"]["name"])
 pprint(app_data["ietf-interfaces:interface"]["description"])
 pprint(app_data["ietf-interfaces:interface"]["enabled"])
-pprint(app_data["ietf-interfaces:interface"]["ietf-ip:ipv4"]["address"][0]["ip"])
+if app_data["ietf-interfaces:interface"]["ietf-ip:ipv4"]:
+    pprint(app_data["ietf-interfaces:interface"]["ietf-ip:ipv4"]["address"][0]["ip"])
+else:
+    print("No Ip Address")
