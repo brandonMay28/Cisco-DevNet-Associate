@@ -1,0 +1,10 @@
+2021-06-16 14:22:34       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.10.0', 'api_key': '************************************95be', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2021-06-16 14:22:34       meraki:    DEBUG > {'tags': ['organizations', 'configure'], 'operation': 'getOrganizations', 'method': 'GET', 'url': '/organizations', 'params': None}
+2021-06-16 14:22:34       meraki:     INFO > GET https://api.meraki.com/api/v1/organizations
+2021-06-16 14:22:35       meraki:     INFO > organizations, getOrganizations - 200 OK
+2021-06-16 14:22:35       meraki:    DEBUG > {'tags': ['organizations', 'configure', 'networks'], 'operation': 'getOrganizationNetworks', 'page': 1}
+2021-06-16 14:22:35       meraki:     INFO > GET https://api.meraki.com/api/v1/organizations/549236/networks
+2021-06-16 14:22:36       meraki:     INFO > organizations, getOrganizationNetworks; page 1 - 200 OK
+2021-06-16 14:22:36       meraki:    DEBUG > {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_646829496481105433/devices', 'params': None}
+2021-06-16 14:22:36       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_646829496481105433/devices
+2021-06-16 14:22:37       meraki:     INFO > networks, getNetworkDevices - 200 OK
