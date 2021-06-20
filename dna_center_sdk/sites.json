@@ -1,0 +1,115 @@
+{
+    "response": [
+        {
+            "additionalInfo": [],
+            "name": "Global",
+            "instanceTenantId": "SYS0",
+            "id": "99d03b90-d16e-4e3f-8cd0-a0231d874844",
+            "siteHierarchy": "99d03b90-d16e-4e3f-8cd0-a0231d874844",
+            "siteNameHierarchy": "Global"
+        },
+        {
+            "parentId": "74a9e01d-f42e-4f95-90f0-cf05010fe82d",
+            "additionalInfo": [
+                {
+                    "nameSpace": "Location",
+                    "attributes": {
+                        "country": "Spain",
+                        "address": "A Estrada, Pontevedra, Spain",
+                        "latitude": "42.68917",
+                        "addressInheritedFrom": "eac9d210-51c3-475d-8a52-fbb3fc24301c",
+                        "type": "building",
+                        "longitude": "-8.48722"
+                    }
+                }
+            ],
+            "name": "Building-amoi",
+            "instanceTenantId": "602bebe514710a00c98fa402",
+            "id": "eac9d210-51c3-475d-8a52-fbb3fc24301c",
+            "siteHierarchy": "99d03b90-d16e-4e3f-8cd0-a0231d874844/74a9e01d-f42e-4f95-90f0-cf05010fe82d/eac9d210-51c3-475d-8a52-fbb3fc24301c",
+            "siteNameHierarchy": "Global/Area-amoi/Building-amoi"
+        },
+        {
+            "parentId": "99d03b90-d16e-4e3f-8cd0-a0231d874844",
+            "additionalInfo": [
+                {
+                    "nameSpace": "Location",
+                    "attributes": {
+                        "addressInheritedFrom": "e6896d43-b12c-4113-804a-2e65017c8a42",
+                        "type": "area"
+                    }
+                }
+            ],
+            "name": "Luxembourg",
+            "instanceTenantId": "602bebe514710a00c98fa402",
+            "id": "e6896d43-b12c-4113-804a-2e65017c8a42",
+            "siteHierarchy": "99d03b90-d16e-4e3f-8cd0-a0231d874844/e6896d43-b12c-4113-804a-2e65017c8a42",
+            "siteNameHierarchy": "Global/Luxembourg"
+        },
+        {
+            "parentId": "99d03b90-d16e-4e3f-8cd0-a0231d874844",
+            "additionalInfo": [
+                {
+                    "nameSpace": "Location",
+                    "attributes": {
+                        "addressInheritedFrom": "74a9e01d-f42e-4f95-90f0-cf05010fe82d",
+                        "type": "area"
+                    }
+                }
+            ],
+            "name": "Area-amoi",
+            "instanceTenantId": "602bebe514710a00c98fa402",
+            "id": "74a9e01d-f42e-4f95-90f0-cf05010fe82d",
+            "siteHierarchy": "99d03b90-d16e-4e3f-8cd0-a0231d874844/74a9e01d-f42e-4f95-90f0-cf05010fe82d",
+            "siteNameHierarchy": "Global/Area-amoi"
+        },
+        {
+            "parentId": "74a9e01d-f42e-4f95-90f0-cf05010fe82d",
+            "additionalInfo": [
+                {
+                    "nameSpace": "Location",
+                    "attributes": {
+                        "addressInheritedFrom": "74a9e01d-f42e-4f95-90f0-cf05010fe82d",
+                        "type": "area"
+                    }
+                }
+            ],
+            "name": "Site-amoi",
+            "instanceTenantId": "602bebe514710a00c98fa402",
+            "id": "effccd50-66d7-4577-b1d7-ea07d3932229",
+            "siteHierarchy": "99d03b90-d16e-4e3f-8cd0-a0231d874844/74a9e01d-f42e-4f95-90f0-cf05010fe82d/effccd50-66d7-4577-b1d7-ea07d3932229",
+            "siteNameHierarchy": "Global/Area-amoi/Site-amoi"
+        },
+        {
+            "parentId": "e6896d43-b12c-4113-804a-2e65017c8a42",
+            "additionalInfo": [
+                {
+                    "nameSpace": "ETA",
+                    "attributes": {
+                        "member.etaCapable.direct": "1",
+                        "member.etaReady.direct": "0",
+                        "member.etaNotReady.direct": "1",
+                        "member.etaReadyNotEnabled.direct": "0",
+                        "member.etaEnabled.direct": "0"
+                    }
+                },
+                {
+                    "nameSpace": "Location",
+                    "attributes": {
+                        "country": "Luxembourg",
+                        "address": "79, Rue Basse, Steinsel, Luxembourg",
+                        "latitude": "49.670180",
+                        "addressInheritedFrom": "004c606c-c0ff-4871-a103-92e60aab1570",
+                        "type": "building",
+                        "longitude": "6.119442"
+                    }
+                }
+            ],
+            "name": "LUX",
+            "instanceTenantId": "602bebe514710a00c98fa402",
+            "id": "004c606c-c0ff-4871-a103-92e60aab1570",
+            "siteHierarchy": "99d03b90-d16e-4e3f-8cd0-a0231d874844/e6896d43-b12c-4113-804a-2e65017c8a42/004c606c-c0ff-4871-a103-92e60aab1570",
+            "siteNameHierarchy": "Global/Luxembourg/LUX"
+        }
+    ]
+}
